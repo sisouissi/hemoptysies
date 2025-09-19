@@ -13,6 +13,7 @@ export interface TherapeuticModality {
 
 export interface ClinicalPoint {
   category: string;
+  intro?: string;
   points: string[];
 }
 

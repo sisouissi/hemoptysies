@@ -21,6 +21,7 @@ const ClinicalPointCard: React.FC<{ item: ClinicalPoint }> = ({ item }) => {
                 <StarIcon className="h-5 w-5 fill-current text-amber-400" />
                 {item.category}
             </h3>
+            {item.intro && <p className="text-sm text-slate-700 mb-3">{item.intro}</p>}
             <ul className="space-y-2">
                 {item.points.map((point, i) => (
                     <li key={i} className="flex items-start text-sm">

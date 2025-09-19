@@ -29,7 +29,7 @@ const steps: Step[] = [
                 <p><strong>Priorité absolue : Évaluation ABCDE.</strong></p>
                 <ul className="list-disc list-inside text-slate-600 text-sm">
                     <li><strong>A (Airway) :</strong> Sécuriser les voies aériennes (la cause de décès est l'asphyxie).</li>
-                    <li><strong>B (Breathing) :</strong> Oxygénation pour maintenir la saturation > 90%.</li>
+                    <li><strong>B (Breathing) :</strong> Oxygénation pour maintenir la saturation &gt; 90%.</li>
                     <li><strong>C (Circulation) :</strong> Accès veineux, remplissage, transfusion si nécessaire.</li>
                 </ul>
                 <p>La radiographie thoracique est un premier examen qui peut localiser le saignement dans ~46% des cas, mais ne doit pas retarder la suite de la prise en charge.</p>

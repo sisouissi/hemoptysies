@@ -222,8 +222,8 @@ export const KEY_POINTS: ClinicalPoint[] = [
     },
     {
         category: "Critères de Sortie",
+        intro: "Le patient peut être considéré pour une sortie si tous les critères suivants sont remplis :",
         points: [
-            "Le patient peut être considéré pour une sortie si tous les critères suivants sont remplis :",
             "Saignement résolu depuis <strong>plus de 24-48h</strong>.",
             "Stabilité hémodynamique sans support.",
             "Absence d'hypoxie.",
