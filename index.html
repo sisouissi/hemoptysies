@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prise en Charge de l'Hémoptysie Grave</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Poppins', 'sans-serif'],
+          },
+        },
+      },
+    }
+  </script>
+  <style>
+    /* Global prose styles for modals and accordions */
+    .prose h3 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #1e293b; /* slate-800 */
+      border-bottom: 1px solid #e2e8f0; /* slate-200 */
+      padding-bottom: 0.5rem;
+      margin-top: 1.75rem;
+      margin-bottom: 1rem;
+    }
+    .prose h3:first-child {
+      margin-top: 0;
+    }
+    .prose p {
+      margin-bottom: 1.25rem;
+      line-height: 1.7;
+    }
+    .prose ul, .prose ol {
+      padding-left: 2rem;
+    }
+      .prose li {
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .prose ul ul, .prose ol ol, .prose ul ol, .prose ol ul {
+      margin-top: 0.75rem;
+      margin-bottom: 0.75rem;
+    }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom": "https://aistudiocdn.com/react-dom@^19.1.1"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-slate-100">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

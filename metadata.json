@@ -1,0 +1,5 @@
+{
+  "name": "Prise en charge des hémoptysies graves",
+  "description": "Application d'aide au diagnostic et au traitement des hémoptysies graves, basée sur la revue de Kathuria et al.",
+  "requestFramePermissions": []
+}
