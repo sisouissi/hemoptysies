@@ -24,7 +24,7 @@ const App: React.FC = () => {
   const [activeTab, setActiveTab] = useState('overview');
 
   const tabs = [
-    { id: 'overview', name: 'Aperçu', icon: <InfoIcon className="h-5 w-5 mr-2" /> },
+    { id: 'overview', name: 'Accueil', icon: <InfoIcon className="h-5 w-5 mr-2" /> },
     { id: 'algorithm', name: 'Algorithme de Prise en Charge', icon: <ActivityIcon className="h-5 w-5 mr-2" /> },
     { id: 'therapies', name: 'Modalités Thérapeutiques', icon: <ShieldAlertIcon className="h-5 w-5 mr-2" /> },
     { id: 'resources', name: 'Points Clés & Ressources', icon: <BookOpenIcon className="h-5 w-5 mr-2" /> },
@@ -58,7 +58,7 @@ const App: React.FC = () => {
         
         <div className="mt-8">
           {activeTab === 'overview' && (
-            <SectionWrapper title="Aperçu de l'Hémoptysie Grave" icon={<InfoIcon className="h-7 w-7 text-red-600" />}>
+            <SectionWrapper title="Évaluation & Prise en Charge Initiale" icon={<InfoIcon className="h-7 w-7 text-red-600" />}>
               <OverviewContent />
             </SectionWrapper>
           )}
