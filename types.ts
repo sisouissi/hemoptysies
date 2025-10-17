@@ -1,3 +1,6 @@
+// fix: Import React to make React and JSX types available.
+import React from 'react';
+
 export interface OverviewCard {
   title: string;
   icon: (props: React.SVGProps<SVGSVGElement>) => JSX.Element;
